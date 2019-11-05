@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+<listeners>
+
+<listener class-name="flourish.listeners.SuiteListener"></listener>
+<listener class-name="flourish.listeners.TestListener"></listener>
+<listener class-name="flourish.listeners.Reporter"></listener>
+<listener class-name="flourish.listeners.Annotation"></listener>
+
+</listeners>
+
+  <test name="Verify Login Functionality">
+    <classes>
+      <class name="flourish.tests.LoginPageTest"/>
+    </classes>
+  </test> 
+  
+  
+  <test name="Verify Select Environment Functionality">
+    <classes>
+      <class name="flourish.tests.SelectEnvironmentPageTest"/>
+    </classes>
+  </test> 
+  
+  
+  <test name="Verify Enviroment Setting Functionality">
+    <classes>
+      <class name="flourish.tests.Env_SettingsPageTest"/>
+    </classes>
+  </test> 
+  
+  
+  <test name="Verify PIN Functionality">
+    <classes>
+      <class name="flourish.tests.PIN_PageTest"/>
+    </classes>
+  </test> 
+   
+  <test name="Verify Flourish DashBoard OutBoundLink Functionality">
+    <classes>
+      <class name="flourish.tests.FlourishDashboardPageTest"/>
+    </classes>
+  </test>
+   
+  <test name="Verify Create New Order Link Functionality">
+    <classes>
+      <class name="flourish.tests.OutboundPageTest"/>
+    </classes>
+  </test>
+  
+  <test name="Verify Create New Order Details Functionality">
+    <classes>
+      <class name="flourish.tests.NewOrderScreenPageTest"/>
+    </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->

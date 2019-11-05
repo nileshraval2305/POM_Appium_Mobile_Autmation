@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginPageTest]">
+  <listeners>
+    <listener class-name="flourish.listeners.SuiteListener"/>
+    <listener class-name="flourish.listeners.TestListener"/>
+    <listener class-name="flourish.listeners.Reporter"/>
+    <listener class-name="flourish.listeners.Annotation"/>
+  </listeners>
+  <test thread-count="5" name="Verify Select Environment Functionality(failed)">
+    <classes>
+      <class name="flourish.tests.SelectEnvironmentPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="verifySelectEnv"/>
+        </methods>
+      </class> <!-- flourish.tests.SelectEnvironmentPageTest -->
+    </classes>
+  </test> <!-- Verify Select Environment Functionality(failed) -->
+  <test thread-count="5" name="Verify Enviroment Setting Functionality(failed)">
+    <classes>
+      <class name="flourish.tests.Env_SettingsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="verifySelectFacilityAndScanner"/>
+        </methods>
+      </class> <!-- flourish.tests.Env_SettingsPageTest -->
+    </classes>
+  </test> <!-- Verify Enviroment Setting Functionality(failed) -->
+  <test thread-count="5" name="Verify PIN Functionality(failed)">
+    <classes>
+      <class name="flourish.tests.PIN_PageTest">
+        <methods>
+          <include name="verifyEnterPin"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- flourish.tests.PIN_PageTest -->
+    </classes>
+  </test> <!-- Verify PIN Functionality(failed) -->
+  <test thread-count="5" name="Verify Flourish DashBoard OutBoundLink Functionality(failed)">
+    <classes>
+      <class name="flourish.tests.FlourishDashboardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyClickOnOutbound"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- flourish.tests.FlourishDashboardPageTest -->
+    </classes>
+  </test> <!-- Verify Flourish DashBoard OutBoundLink Functionality(failed) -->
+  <test thread-count="5" name="Verify Create New Order Link Functionality(failed)">
+    <classes>
+      <class name="flourish.tests.OutboundPageTest">
+        <methods>
+          <include name="verifyClickOnOutbound"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- flourish.tests.OutboundPageTest -->
+    </classes>
+  </test> <!-- Verify Create New Order Link Functionality(failed) -->
+  <test thread-count="5" name="Verify Create New Order Details Functionality(failed)">
+    <classes>
+      <class name="flourish.tests.NewOrderScreenPageTest">
+        <methods>
+          <include name="verifyNewOrderCancelButtons"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="verifyAddOrderLineManually"/>
+          <include name="verifyCreateNewOrderDetails"/>
+          <include name="verifyNewOrderSaveAndContinueButton"/>
+        </methods>
+      </class> <!-- flourish.tests.NewOrderScreenPageTest -->
+    </classes>
+  </test> <!-- Verify Create New Order Details Functionality(failed) -->
+</suite> <!-- Failed suite [LoginPageTest] -->

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test">
+              <span class="suite-name border-passed">Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test">
+                    <span>E:\Android_workspace\FlourishAndroid\AllTestCase.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test" class="hide-methods passed suite-Test"> (hide)</a> <!-- hide-methods passed suite-Test -->
+                      <a href="#" panel-name="suite-Test" class="show-methods passed suite-Test"> (show)</a> <!-- show-methods passed suite-Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.NewOrderScreenPageTest" hash-for-method="verifyAddOrderLineManually">verifyAddOrderLineManually</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.FlourishDashboardPageTest" hash-for-method="verifyClickOnOutbound">verifyClickOnOutbound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.OutboundPageTest" hash-for-method="verifyClickOnOutbound">verifyClickOnOutbound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.LoginPageTest" hash-for-method="verifyClickOnShowPassword">verifyClickOnShowPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.NewOrderScreenPageTest" hash-for-method="verifyCreateNewOrderDetails">verifyCreateNewOrderDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.PIN_PageTest" hash-for-method="verifyEnterPin">verifyEnterPin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.LoginPageTest" hash-for-method="verifyLoginToAndroidFlourish">verifyLoginToAndroidFlourish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.NewOrderScreenPageTest" hash-for-method="verifyNewOrderCancelButtons">verifyNewOrderCancelButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.NewOrderScreenPageTest" hash-for-method="verifyNewOrderSaveAndContinueButton">verifyNewOrderSaveAndContinueButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.SelectEnvironmentPageTest" hash-for-method="verifySelectEnv">verifySelectEnv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test" title="flourish.tests.Env_SettingsPageTest" hash-for-method="verifySelectFacilityAndScanner">verifySelectFacilityAndScanner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test" class="panel Test">
+          <div class="suite-Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">flourish.tests.OutboundPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnOutbound">
+                  </a> <!-- verifyClickOnOutbound -->
+                  <span class="method-name">verifyClickOnOutbound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class-passed -->
+          <div class="suite-Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">flourish.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnShowPassword">
+                  </a> <!-- verifyClickOnShowPassword -->
+                  <span class="method-name">verifyClickOnShowPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginToAndroidFlourish">
+                  </a> <!-- verifyLoginToAndroidFlourish -->
+                  <span class="method-name">verifyLoginToAndroidFlourish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class-passed -->
+          <div class="suite-Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">flourish.tests.PIN_PageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnterPin">
+                  </a> <!-- verifyEnterPin -->
+                  <span class="method-name">verifyEnterPin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class-passed -->
+          <div class="suite-Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">flourish.tests.FlourishDashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnOutbound">
+                  </a> <!-- verifyClickOnOutbound -->
+                  <span class="method-name">verifyClickOnOutbound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class-passed -->
+          <div class="suite-Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">flourish.tests.SelectEnvironmentPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelectEnv">
+                  </a> <!-- verifySelectEnv -->
+                  <span class="method-name">verifySelectEnv</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class-passed -->
+          <div class="suite-Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">flourish.tests.Env_SettingsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelectFacilityAndScanner">
+                  </a> <!-- verifySelectFacilityAndScanner -->
+                  <span class="method-name">verifySelectFacilityAndScanner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class-passed -->
+          <div class="suite-Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">flourish.tests.NewOrderScreenPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddOrderLineManually">
+                  </a> <!-- verifyAddOrderLineManually -->
+                  <span class="method-name">verifyAddOrderLineManually</span>
+                  <em>
+(Create Order redirect to Order line screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateNewOrderDetails">
+                  </a> <!-- verifyCreateNewOrderDetails -->
+                  <span class="method-name">verifyCreateNewOrderDetails</span>
+                  <em>
+(Create New Order - Save & Continue)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNewOrderCancelButtons">
+                  </a> <!-- verifyNewOrderCancelButtons -->
+                  <span class="method-name">verifyNewOrderCancelButtons</span>
+                  <em>
+(Verify that when a user clicks on Cancel then an order is not getting created.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNewOrderSaveAndContinueButton">
+                  </a> <!-- verifyNewOrderSaveAndContinueButton -->
+                  <span class="method-name">verifyNewOrderSaveAndContinueButton</span>
+                  <em>
+(Verify Save&Continue Button Validation Message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-class-passed -->
+        </div> <!-- panel Test -->
+        <div panel-name="test-xml-Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Android_workspace\FlourishAndroid\AllTestCase.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Test&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;flourish.listeners.SuiteListener&quot;/&gt;
+    &lt;listener class-name=&quot;flourish.listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;flourish.listeners.Reporter&quot;/&gt;
+    &lt;listener class-name=&quot;flourish.listeners.Annotation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Login Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;flourish.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Login Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Select Environment Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;flourish.tests.SelectEnvironmentPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Select Environment Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Enviroment Setting Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;flourish.tests.Env_SettingsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Enviroment Setting Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify PIN Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;flourish.tests.PIN_PageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify PIN Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Flourish DashBoard OutBoundLink Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;flourish.tests.FlourishDashboardPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Flourish DashBoard OutBoundLink Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Create New Order Link Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;flourish.tests.OutboundPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Create New Order Link Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Create New Order Details Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;flourish.tests.NewOrderScreenPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Create New Order Details Functionality --&gt;
+&lt;/suite&gt; &lt;!-- Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Verify Login Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Select Environment Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Enviroment Setting Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify PIN Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Flourish DashBoard OutBoundLink Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Create New Order Link Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Create New Order Details Functionality (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test');
+function tableData_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAddOrderLineManually')
+data.setCell(0, 2, 'flourish.tests.NewOrderScreenPageTest')
+data.setCell(0, 3, 15958);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyNewOrderCancelButtons')
+data.setCell(1, 2, 'flourish.tests.NewOrderScreenPageTest')
+data.setCell(1, 3, 12117);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCreateNewOrderDetails')
+data.setCell(2, 2, 'flourish.tests.NewOrderScreenPageTest')
+data.setCell(2, 3, 11761);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySelectFacilityAndScanner')
+data.setCell(3, 2, 'flourish.tests.Env_SettingsPageTest')
+data.setCell(3, 3, 5956);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyEnterPin')
+data.setCell(4, 2, 'flourish.tests.PIN_PageTest')
+data.setCell(4, 3, 5622);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySelectEnv')
+data.setCell(5, 2, 'flourish.tests.SelectEnvironmentPageTest')
+data.setCell(5, 3, 4614);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginToAndroidFlourish')
+data.setCell(6, 2, 'flourish.tests.LoginPageTest')
+data.setCell(6, 3, 4050);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyClickOnOutbound')
+data.setCell(7, 2, 'flourish.tests.OutboundPageTest')
+data.setCell(7, 3, 2714);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyNewOrderSaveAndContinueButton')
+data.setCell(8, 2, 'flourish.tests.NewOrderScreenPageTest')
+data.setCell(8, 3, 2699);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyClickOnShowPassword')
+data.setCell(9, 2, 'flourish.tests.LoginPageTest')
+data.setCell(9, 3, 2547);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyClickOnOutbound')
+data.setCell(10, 2, 'flourish.tests.FlourishDashboardPageTest')
+data.setCell(10, 3, 2511);
+window.suiteTableData['Test']= { tableData: data, tableDiv: 'times-div-Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Test">
+              </div> <!-- times-div-Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">flourish.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginToAndroidFlourish</span>
+                <span class="method-start">10466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">14518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnShowPassword</span>
+                <span class="method-start">25363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">27911 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">flourish.tests.SelectEnvironmentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySelectEnv</span>
+                <span class="method-start">42331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">46946 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">flourish.tests.Env_SettingsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySelectFacilityAndScanner</span>
+                <span class="method-start">63425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">69381 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">flourish.tests.PIN_PageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEnterPin</span>
+                <span class="method-start">92499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">98122 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">flourish.tests.FlourishDashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">98802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnOutbound</span>
+                <span class="method-start">123861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">126373 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">flourish.tests.OutboundPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">127117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnOutbound</span>
+                <span class="method-start">154232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">156948 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">flourish.tests.NewOrderScreenPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">157708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateNewOrderDetails</span>
+                <span class="method-start">185257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">197019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">197764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNewOrderCancelButtons</span>
+                <span class="method-start">225706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">237824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">238470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNewOrderSaveAndContinueButton</span>
+                <span class="method-start">266091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">268791 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">269563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddOrderLineManually</span>
+                <span class="method-start">298334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">314293 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

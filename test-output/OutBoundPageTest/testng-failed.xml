@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OutBoundPageTest]">
+  <listeners>
+    <listener class-name="flourish.listeners.SuiteListener"/>
+    <listener class-name="flourish.listeners.TestListener"/>
+    <listener class-name="flourish.listeners.Reporter"/>
+    <listener class-name="flourish.listeners.Annotation"/>
+  </listeners>
+  <test thread-count="5" name="Verify Add Order Line Details Functionality(failed)">
+    <classes>
+      <class name="flourish.tests.AddOrderLinePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="verifyAddOrderLineDetail"/>
+        </methods>
+      </class> <!-- flourish.tests.AddOrderLinePageTest -->
+    </classes>
+  </test> <!-- Verify Add Order Line Details Functionality(failed) -->
+</suite> <!-- Failed suite [OutBoundPageTest] -->

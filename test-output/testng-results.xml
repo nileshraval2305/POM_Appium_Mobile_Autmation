@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test" duration-ms="314958" started-at="2019-11-05T09:39:30Z" finished-at="2019-11-05T09:44:45Z">
+    <groups>
+    </groups>
+    <test name="Verify Login Functionality" duration-ms="28516" started-at="2019-11-05T09:39:30Z" finished-at="2019-11-05T09:39:59Z">
+      <class name="flourish.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.LoginPageTest@7c29daf3]" name="setUp" is-config="true" duration-ms="10466" started-at="2019-11-05T09:39:30Z" finished-at="2019-11-05T09:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginToAndroidFlourish()[pri:1, instance:flourish.tests.LoginPageTest@7c29daf3]" name="verifyLoginToAndroidFlourish" duration-ms="4050" started-at="2019-11-05T09:39:41Z" finished-at="2019-11-05T09:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginToAndroidFlourish -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.LoginPageTest@7c29daf3]" name="teardown" is-config="true" duration-ms="753" started-at="2019-11-05T09:39:45Z" finished-at="2019-11-05T09:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.LoginPageTest@7c29daf3]" name="setUp" is-config="true" duration-ms="10090" started-at="2019-11-05T09:39:46Z" finished-at="2019-11-05T09:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyClickOnShowPassword()[pri:2, instance:flourish.tests.LoginPageTest@7c29daf3]" name="verifyClickOnShowPassword" duration-ms="2547" started-at="2019-11-05T09:39:56Z" finished-at="2019-11-05T09:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnShowPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.LoginPageTest@7c29daf3]" name="teardown" is-config="true" duration-ms="583" started-at="2019-11-05T09:39:58Z" finished-at="2019-11-05T09:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- flourish.tests.LoginPageTest -->
+    </test> <!-- Verify Login Functionality -->
+    <test name="Verify Select Environment Functionality" duration-ms="19084" started-at="2019-11-05T09:39:59Z" finished-at="2019-11-05T09:40:18Z">
+      <class name="flourish.tests.SelectEnvironmentPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.SelectEnvironmentPageTest@53f65459]" name="setUp" is-config="true" duration-ms="13775" started-at="2019-11-05T09:39:59Z" finished-at="2019-11-05T09:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySelectEnv()[pri:0, instance:flourish.tests.SelectEnvironmentPageTest@53f65459]" name="verifySelectEnv" duration-ms="4614" started-at="2019-11-05T09:40:13Z" finished-at="2019-11-05T09:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectEnv -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.SelectEnvironmentPageTest@53f65459]" name="teardown" is-config="true" duration-ms="686" started-at="2019-11-05T09:40:17Z" finished-at="2019-11-05T09:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- flourish.tests.SelectEnvironmentPageTest -->
+    </test> <!-- Verify Select Environment Functionality -->
+    <test name="Verify Enviroment Setting Functionality" duration-ms="22434" started-at="2019-11-05T09:40:18Z" finished-at="2019-11-05T09:40:40Z">
+      <class name="flourish.tests.Env_SettingsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.Env_SettingsPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="15768" started-at="2019-11-05T09:40:18Z" finished-at="2019-11-05T09:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySelectFacilityAndScanner()[pri:0, instance:flourish.tests.Env_SettingsPageTest@4d41cee]" name="verifySelectFacilityAndScanner" duration-ms="5956" started-at="2019-11-05T09:40:34Z" finished-at="2019-11-05T09:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectFacilityAndScanner -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.Env_SettingsPageTest@4d41cee]" name="teardown" is-config="true" duration-ms="709" started-at="2019-11-05T09:40:40Z" finished-at="2019-11-05T09:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- flourish.tests.Env_SettingsPageTest -->
+    </test> <!-- Verify Enviroment Setting Functionality -->
+    <test name="Verify PIN Functionality" duration-ms="28647" started-at="2019-11-05T09:40:40Z" finished-at="2019-11-05T09:41:09Z">
+      <class name="flourish.tests.PIN_PageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.PIN_PageTest@59e5ddf]" name="setUp" is-config="true" duration-ms="22388" started-at="2019-11-05T09:40:40Z" finished-at="2019-11-05T09:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEnterPin()[pri:0, instance:flourish.tests.PIN_PageTest@59e5ddf]" name="verifyEnterPin" duration-ms="5622" started-at="2019-11-05T09:41:03Z" finished-at="2019-11-05T09:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnterPin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.PIN_PageTest@59e5ddf]" name="teardown" is-config="true" duration-ms="635" started-at="2019-11-05T09:41:08Z" finished-at="2019-11-05T09:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- flourish.tests.PIN_PageTest -->
+    </test> <!-- Verify PIN Functionality -->
+    <test name="Verify Flourish DashBoard OutBoundLink Functionality" duration-ms="28293" started-at="2019-11-05T09:41:09Z" finished-at="2019-11-05T09:41:37Z">
+      <class name="flourish.tests.FlourishDashboardPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.FlourishDashboardPageTest@2781e022]" name="setUp" is-config="true" duration-ms="25059" started-at="2019-11-05T09:41:09Z" finished-at="2019-11-05T09:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyClickOnOutbound()[pri:0, instance:flourish.tests.FlourishDashboardPageTest@2781e022]" name="verifyClickOnOutbound" duration-ms="2511" started-at="2019-11-05T09:41:34Z" finished-at="2019-11-05T09:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnOutbound -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.FlourishDashboardPageTest@2781e022]" name="teardown" is-config="true" duration-ms="720" started-at="2019-11-05T09:41:37Z" finished-at="2019-11-05T09:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- flourish.tests.FlourishDashboardPageTest -->
+    </test> <!-- Verify Flourish DashBoard OutBoundLink Functionality -->
+    <test name="Verify Create New Order Link Functionality" duration-ms="30564" started-at="2019-11-05T09:41:37Z" finished-at="2019-11-05T09:42:08Z">
+      <class name="flourish.tests.OutboundPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.OutboundPageTest@7a1ebcd8]" name="setUp" is-config="true" duration-ms="27115" started-at="2019-11-05T09:41:37Z" finished-at="2019-11-05T09:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyClickOnOutbound()[pri:0, instance:flourish.tests.OutboundPageTest@7a1ebcd8]" name="verifyClickOnOutbound" duration-ms="2714" started-at="2019-11-05T09:42:05Z" finished-at="2019-11-05T09:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnOutbound -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.OutboundPageTest@7a1ebcd8]" name="teardown" is-config="true" duration-ms="731" started-at="2019-11-05T09:42:07Z" finished-at="2019-11-05T09:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- flourish.tests.OutboundPageTest -->
+    </test> <!-- Verify Create New Order Link Functionality -->
+    <test name="Verify Create New Order Details Functionality" duration-ms="157229" started-at="2019-11-05T09:42:08Z" finished-at="2019-11-05T09:44:45Z">
+      <class name="flourish.tests.NewOrderScreenPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="setUp" is-config="true" duration-ms="27549" started-at="2019-11-05T09:42:08Z" finished-at="2019-11-05T09:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewOrderDetails()[pri:1, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="verifyCreateNewOrderDetails" duration-ms="11761" started-at="2019-11-05T09:42:36Z" description="Create New Order - Save &amp; Continue" finished-at="2019-11-05T09:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewOrderDetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="teardown" is-config="true" duration-ms="745" started-at="2019-11-05T09:42:47Z" finished-at="2019-11-05T09:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="setUp" is-config="true" duration-ms="27942" started-at="2019-11-05T09:42:48Z" finished-at="2019-11-05T09:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNewOrderCancelButtons()[pri:2, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="verifyNewOrderCancelButtons" duration-ms="12117" started-at="2019-11-05T09:43:16Z" description="Verify that when a user clicks on Cancel then an order is not getting created." finished-at="2019-11-05T09:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewOrderCancelButtons -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="teardown" is-config="true" duration-ms="646" started-at="2019-11-05T09:43:28Z" finished-at="2019-11-05T09:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="setUp" is-config="true" duration-ms="27621" started-at="2019-11-05T09:43:29Z" finished-at="2019-11-05T09:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNewOrderSaveAndContinueButton()[pri:3, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="verifyNewOrderSaveAndContinueButton" duration-ms="2699" started-at="2019-11-05T09:43:56Z" description="Verify Save&amp;Continue Button Validation Message" finished-at="2019-11-05T09:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewOrderSaveAndContinueButton -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="teardown" is-config="true" duration-ms="772" started-at="2019-11-05T09:43:59Z" finished-at="2019-11-05T09:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="setUp" is-config="true" duration-ms="28771" started-at="2019-11-05T09:44:00Z" finished-at="2019-11-05T09:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddOrderLineManually()[pri:4, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="verifyAddOrderLineManually" duration-ms="15958" started-at="2019-11-05T09:44:29Z" description="Create Order redirect to Order line screen" finished-at="2019-11-05T09:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddOrderLineManually -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:flourish.tests.NewOrderScreenPageTest@52feb982]" name="teardown" is-config="true" duration-ms="643" started-at="2019-11-05T09:44:45Z" finished-at="2019-11-05T09:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- flourish.tests.NewOrderScreenPageTest -->
+    </test> <!-- Verify Create New Order Details Functionality -->
+  </suite> <!-- Test -->
+</testng-results>
